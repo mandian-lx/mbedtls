@@ -21,7 +21,6 @@ BuildRequires:	cmake
 BuildRequires:	doxygen
 BuildRequires:	perl
 BuildRequires:	graphviz
-#BuildRequires:	pkgconfig(libcrypto)
 BuildRequires:	pkgconfig(libpkcs11-helper-1)
 BuildRequires:	pkgconfig(zlib)
 
@@ -129,5 +128,5 @@ mv %{buildroot}%{_bindir}/benchmark %{buildroot}%{_bindir}/benchmark.%{name}
 
 %check
 # tests
-%make -C build test
+LD_LIBRARY_PATH=%{buildroot}%{_libdir} %make -C build test
 
