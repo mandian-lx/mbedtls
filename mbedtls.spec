@@ -11,7 +11,7 @@
 Summary:	An SSL library
 Name:		%{sname}tls
 Version:	2.4.0
-Release:	0
+Release:	1
 License:	GPLv2+
 Group:		System/Libraries
 Url:		https://tls.mbed.org
@@ -40,7 +40,6 @@ This package contains mbed TLS programs.
 %doc ChangeLog
 %doc gpl-2.0.txt
 %doc LICENSE
-
 
 #----------------------------------------------------------------------------
 
