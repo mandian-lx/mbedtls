@@ -20,7 +20,7 @@ Source0:	https://tls.mbed.org/code/releases/%{name}-%{version}-gpl.tgz
 BuildRequires:	cmake
 BuildRequires:	doxygen
 BuildRequires:	perl
-#BuildRequires:	graphviz
+BuildRequires:	graphviz
 #BuildRequires:	pkgconfig(libcrypto)
 BuildRequires:	pkgconfig(libpkcs11-helper-1)
 BuildRequires:	pkgconfig(zlib)
